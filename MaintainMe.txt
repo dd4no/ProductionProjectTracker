@@ -1,0 +1,56 @@
+PPT Setup:	PPT resides on a server drive, inside a folder named "Ppt".
+		(current location: \\lu2\db\).
+		Front-end interface is loaded on each workstation.
+		
+	Set up a new workstation:
+		- Double-click 'My Computer'.
+		- Double-click the appropriate drive letter and then double-click the appropriate folder.
+			(current location k: (drive) and 'Ppt' (folder)
+		- Inside PPT folder locate 'setup.bat' and double-click it.
+			- a DOS window pops up that creates a folder on the local drive for PPT and copies the neccessary file(s).
+		- When title bar of DOS window reads "Finished - setup" click the close button (upper right corner).
+		- Close or minimize any open windows.
+		- Double-click 'My Computer'.
+		- Double-click 'C:' drive.
+		- Double-click 'Ppt' folder.
+		- Verify that the file 'PPT.mdb' exists.
+		- Right-click, hold, and drag 'PPT.mdb' out to the desktop and release.
+		- Choose 'Create Shortcut(s) Here' from the pop-up menu.
+		- Right click the new shortcut and choose 'Rename'.
+		- Change shortcut name to 'PPT'.
+
+	Upgrade and existing workstation to a new version:
+		- Double-click 'My Computer'.
+		- Double-click the appropriate drive letter and then double-click the appropriate folder.
+			(current location k: (drive) and 'Ppt' (folder)
+		- Inside PPT folder locate 'setup.bat' and double-click it.
+			- a DOS window pops up that creates a folder on the local drive for PPT and copies the neccessary file(s).
+		- When title bar of DOS window reads "Finished - setup" click the close button (upper right corner).
+		- Close or minimize any open windows.
+
+Version maintenance and upgrades:
+	
+	To prepare database for export to designer:
+		- Open PPT folder on server drive.
+		- Double-click 'Tables' folder.
+		- Double-click 'cds.mdb'.
+		- click 'Get Table' button to import Titles table.
+		- close 'cds.mdb'
+		- close other open windows.
+		- open PPT folder again.
+		- right-click on 'Tables' folder and choose 'Add to Tables.zip' from the pop-up menu.
+		- click 'I agree' on the WinZip startup window.  Saves the file to the PPT folder on the server.
+		- close all windows.
+		- attach 'Tables.zip' to an email and send to designer at dcdef@earthlink.net.
+
+	To release a new version:
+		- open PPT folder on server.
+		- if file 'PPT.ldb' exists, someone has the db open and should exit before continuing here.
+		- rename 'PPT.mdb' to appropriate current version number (i.e. PPT v1.x.mdb)
+		- move file to 'Versions' subfolder		
+		- designer will email a zipped version of the new interface (tables stay the same).
+		- reciever of file will double-click the zip file to launch winzip.
+		- when prompted for location to extract to, browse for appropriate server location to unzip the file to.
+			(current location "\\lu2\db\ppt" or "k:\ppt")
+		- close all windows.
+		- run setup again from each workstation.

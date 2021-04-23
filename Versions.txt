@@ -1,0 +1,11 @@
+PPT v1.0	
+-changed all hours fields to 'fixed' with 2 decimal places.
+-fixed Employee By Date Range Report to reflect date range.
+-adjusted all queries to sort date accending.
+-created query for current project summaries.
+-based appropriate reports on new query.
+-ensured all reports point to correct query (all titles, or current titles)
+-added page headers to Tasks, Freelance, and Timecard forms for print out.
+-added reports for archived projects (task hours summary, and project hour summary)
+
+PPT vBeta	11:23 AM 03/20/2000
