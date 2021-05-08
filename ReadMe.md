@@ -4,6 +4,6 @@ Documentation for custom MS Access in-house application with back end tables, fr
 
 created by Dave Defourneaux - for Libraries Unlimited - 1999.
 <hr>
-ProjectReadMe.txt: Project documentation.<br>
-MaintainMe.txt: Administrator instructions.<br>
-Versions.txt: Version and revision information.<br>
+ProjectReadMe.txt -- Project documentation.<br>
+MaintainMe.txt  -- Administrator instructions.<br>
+Versions.txt -- Version and revision information.<br>
